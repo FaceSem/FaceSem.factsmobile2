@@ -1,34 +1,34 @@
 .container {
     display: flex;
     flex-direction: row;
-    width: 415px;
-    height: 242px;
-    background-image: url('../../img/img_flask/bg.png');
+    width: 29vw;
+    height: 16vw;
+    background-image: url(../../img/img_flask/bg.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 /*first flask*/
 .bowl1 {
-    width: 143px;
-    height: 145px;
-    background: url('../../img/img_flask/test-tubes.png');
+    width: 10vw;
+    height: 10vw;
+    background: url(../../img/img_flask/test-tubes.png);
     background-size: 80% 100%;
     background-repeat: no-repeat;
     position: relative;
-    top: 21.3px;
-    left: 3px;
+    top: 1vw;
+    left: 0.2vw;
 }
 
 .shadowFlask1 {
-    background: url('../../img/img_flask/test-tubes_shadow.png');
+    background: url(../../img/img_flask/test-tubes_shadow.png);
     background-size: 80% 100%;
     background-repeat: no-repeat;
     position: absolute;
-    width: 143px;
-    height: 145px;
-    top: 22px;
-    left: 3px;
+    width: 11vw;
+    height: 10vw;
+    top: 1vw;
+    left: 0.2vw;
     opacity: 1;
 }
 
@@ -37,11 +37,11 @@
 
 .bowl1 .inner1 {
     border-radius: 50%;
-    width: 85px;
-    height: 88px;
+    width: 6.2vw;
+    height: 6.5vw;
     position: relative;
-    top: -39px;
-    left: 11px;
+    top: -3.2vw;
+    left: 0.6vw;
     z-index: 3;
     overflow: hidden;
     backface-visibility: hidden;
@@ -59,19 +59,19 @@
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-duration: 2s;
-    width: 300px;
-    height: 150px;
+    width: 29vw;
+    height: 15vw;
     fill: #ffffff;
 }
 
 /*shadow top for circle*/
 .bowl1 .inner12 {
     border-radius: 50%;
-    width: 93px;
-    height: 88px;
+    width: 7vw;
+    height: 6.3vw;
     position: relative;
-    top: 48px;
-    left: 11px;
+    top: 3.1vw;
+    left: 0.5vw;
     z-index: 1;
     overflow: hidden;
     backface-visibility: hidden;
@@ -89,8 +89,8 @@
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-duration: 2.5s;
-    width: 300px;
-    height: 150px;
+    width: 29vw;
+    height: 15vw;
     fill: #000;
     opacity: 0.06;
 }
@@ -98,11 +98,11 @@
 /*shadow right for circle*/
 .bowl1 .inner1Right {
     border-radius: 50%;
-    width: 93px;
-    height: 88px;
+    width: 7vw;
+    height: 6.5vw;
     position: relative;
-    top: -127px;
-    left: 11px;
+    top: -9.7vw;
+    left: 0.6vw;
     z-index: 2;
     overflow: hidden;
     backface-visibility: hidden;
@@ -119,8 +119,8 @@
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-duration: 2s;
-    width: 300px;
-    height: 150px;
+    width: 29vw;
+    height: 15vw;
     fill: #000;
     opacity: 0.15;
 }
@@ -159,24 +159,24 @@
 /*trapezoid*/
 .bowl2 {
     position: relative;
-    width: 199px;
-    height: 159px;
-    top: 19px;
-    left: -2px;
-    background: url('../../img/img_flask/test-tubes2.png');
+    width: 14vw;
+    height: 11vw;
+    top: 0.7vw;
+    left: 0vw;
+    background: url(../../img/img_flask/test-tubes2.png);
     background-size: 80% 100%;
     background-repeat: no-repeat;
 }
 
 .shadowFlask2 {
-    background: url('../../img/img_flask/test-tubes2_shadow.png');
+    background: url(../../img/img_flask/test-tubes2_shadow.png);
     background-size: 80% 100%;
     background-repeat: no-repeat;
     position: absolute;
-    width: 199px;
-    height: 159px;
-    top: 19px;
-    left: 142px;
+    width: 15vw;
+    height: 12vw;
+    top: -0.2vw;
+    left: 10vw;
     opacity: 0.6;
 }
 
@@ -184,11 +184,11 @@
 /*water for trapezoid*/
 
 .bowl2 .inner2 {
-    width: 114px;
-    height: 58px;
+    width: 8.2vw;
+    height: 4.5vw;
     position: relative;
-    top: 25px;
-    left: 20px;
+    top: 1.2vw;
+    left: 1.2vw;
     z-index: 3;
     -webkit-border-radius: 35% 34% 31% 31% / 67% 84% 18% 18%;
     border-radius: 35% 24% 31% 31% / 67% 84% 18% 18%;
@@ -215,12 +215,11 @@
 
 /*top shadow for trapezoid*/
 .bowl2 .inner22 {
-
-    width: 116px;
-    height: 60px;
+    width: 8.5vw;
+    height: 4.5vw;
     position: relative;
-    top: 83px;
-    left: 24px;
+    top: 5.5vw;
+    left: 1.5vw;
     z-index: 1;
     border-radius: 35% 32% 31% 31% / 67% 84% 18% 18%;
     border-radius: 35% 32% 31% 31% / 67% 84% 18% 18%;
@@ -231,7 +230,6 @@
     animation-iteration-count: 1;
     animation-timing-function: cubic-bezier(0.2, 0.6, 0.8, 0.4);
     animation-duration: 4s;
-    animation-fill-mode: forwards;
 
 }
 
@@ -259,11 +257,11 @@
 
 /*shadow right for trapezoid*/
 .bowl2 .inner2Right {
-    width: 123px;
-    height: 58px;
+    width: 8.5vw;
+    height: 4.5vw;
     position: relative;
-    top: -33px;
-    left: 20px;
+    top: -3.3vw;
+    left: 1.8vw;
     z-index: 2;
     border-radius: 35% 34% 31% 31% / 67% 84% 18% 18%;
     border-radius: 35% 34% 31% 31% / 67% 84% 18% 18%;
@@ -300,25 +298,25 @@
 
 /*test tube*/
 .bowl3 {
-    top: 20px;
-    left: -19px;
+    top: 0.8vw;
+    left: -1.4vw;
     position: relative;
-    width: 75px;
-    height: 145px;
-    background: url('../../img/img_flask/test-tubes3.png');
+    width: 5vw;
+    height: 10vw;
+    background: url(../../img/img_flask/test-tubes3.png);
     background-size: 80% 100%;
     background-repeat: no-repeat;
 }
 
 .shadowFlask3 {
-    background: url('../../img/img_flask/test-tubes3_shadow.png');
+    background: url(../../img/img_flask/test-tubes3_shadow.png);
     background-size: 80% 100%;
     background-repeat: no-repeat;
     position: absolute;
-    width: 75px;
-    height: 145px;
-    top: 20px;
-    left: 324px;
+    width: 4vw;
+    height: 9vw;
+    top: 1vw;
+    left: 23vw;
     opacity: 0.5;
 }
 
@@ -326,12 +324,11 @@
 /*water for test tube*/
 
 .bowl3 .inner3 {
-
-    width: 22px;
-    height: 110px;
+    width: 1.7vw;
+    height: 7.7vw;
     position: relative;
-    top: -83px;
-    left: 20px;
+    top: -5.2vw;
+    left: 1.2vw;
     z-index: 3;
     border-bottom-left-radius: 58px;
     border-bottom-right-radius: 58px;
@@ -342,7 +339,6 @@
     animation-iteration-count: 1;
     animation-timing-function: cubic-bezier(0.2, 0.6, 0.8, 0.4);
     animation-duration: 4s;
-    animation-fill-mode: forwards;
 }
 
 /*wave for test tube*/
@@ -358,13 +354,12 @@
 
 /*top shadow for test tube*/
 .bowl3 .inner32 {
-
-    width: 26px;
-    height: 107px;
+    width: 2.1vw;
+    height: 7.2vw;
     position: relative;
-    top: 25px;
-    left: 20px;
-    z-index: 1;
+    top: 1.7vw;
+    left: 1.1vw;
+    z-index: 2;
     border-bottom-left-radius: 58px;
     border-bottom-right-radius: 58px;
     overflow: hidden;
@@ -376,6 +371,7 @@
     animation-duration: 4s;
     animation-fill-mode: forwards;
 }
+
 
 /*wave for top shadow*/
 .bowl3 .waveShape32 {
@@ -392,12 +388,11 @@
 /*right shadow for test tube*/
 
 .bowl3 .inner3Right {
-
-    width: 26px;
-    height: 110px;
+    width: 1.9vw;
+    height: 7.7vw;
     position: relative;
-    top: -193px;
-    left: 20px;
+    top: -12.9vw;
+    left: 1.3vw;
     z-index: 2;
     border-bottom-left-radius: 58px;
     border-bottom-right-radius: 58px;
@@ -445,154 +440,114 @@
     }
 }
 
-@media screen and (max-width: 1200px) {
-    .container {
-        display: flex;
-        flex-direction: row;
-        width: 350px;
-        height: 225px;
-        background-image: url(../../img/img_flask/bg.png);
-        background-repeat: no-repeat;
-        background-size: 100%;
-    }
-
-    .bowl1 {
-        width: 125px;
-        height: 130px;
-        background: url(../../img/img_flask/test-tubes.png);
-        background-size: 80% 100%;
-        background-repeat: no-repeat;
-        position: relative;
-        top: 12.3px;
-        left: 3px;
-    }
-
-    .shadowFlask1 {
-        background: url(../../img/img_flask/test-tubes_shadow.png);
-        background-size: 80% 100%;
-        background-repeat: no-repeat;
-        position: absolute;
-        width: 125px;
-        height: 130px;
-        top: 13px;
-        left: 3px;
-        opacity: 0.63;
-    }
-
+@media screen and (max-width: 1024px) { 
     .bowl1 .inner1 {
         border-radius: 50%;
-        width: 80px;
-        top: -53px;
-        left: 8px;
-    }
+        width: 6.4vw;
+        height: 7.6vw;
+        position: relative;
+        top: -5.3vw;
+        left: 0.5vw;
+        z-index: 3;
+        overflow: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+        animation-name: shadow;
+        animation-iteration-count: 1;
+        animation-timing-function: cubic-bezier(0.2, 0.6, 0.8, 0.4);
+        animation-duration: 4s;
+        animation-fill-mode: forwards;
+    } 
 
     .bowl1 .inner12 {
-        width: 85px;
-        top: 34px;
-        left: 8px;
-
+        border-radius: 50%;
+        width: 7vw;
+        height: 7.3vw;
+        position: relative;
+        top: 2vw;
+        left: 0.5vw;
+        z-index: 1;
+        overflow: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+        animation-name: shadow;
+        animation-iteration-count: 1;
+        animation-timing-function: cubic-bezier(0.2, 0.6, 0.8, 0.4);
+        animation-duration: 4s;
+        animation-fill-mode: forwards;
     }
 
     .bowl1 .inner1Right {
         border-radius: 50%;
-        width: 83px;
-        top: -141px;
-        left: 11px;
-
-    }
-
-    .bowl2 {
+        width: 7vw;
+        height: 7.5vw;
         position: relative;
-        width: 165px;
-        height: 140px;
-        top: 12px;
-        left: -2px;
-        background: url(../../img/img_flask/test-tubes2.png);
-        background-size: 80% 100%;
-        background-repeat: no-repeat;
-    }
-
-    .shadowFlask2 {
-        background: url(../../img/img_flask/test-tubes2_shadow.png);
-        background-size: 80% 100%;
-        background-repeat: no-repeat;
-        position: absolute;
-        width: 165px;
-        height: 140px;
-        top: 12px;
-        left: 123px;
-        opacity: 0.6;
-    }
-
-    .bowl2 .inner2 {
-        width: 86px;
-        height: 58px;
-        top: 10px;
-        left: 19px;
-    }
-
-    .bowl2 .inner22 {
-
-        width: 87px;
-        height: 60px;
-        top: 68px;
-        left: 23px;
-
-
-    }
-
-    .bowl2 .inner2Right {
-        width: 97px;
-        height: 58px;
-        top: -48px;
-        left: 19px;
-    }
-
-    .bowl3 {
-        top: 13px;
-        left: -19px;
-        position: relative;
-        width: 70px;
-        height: 131px;
-        background: url(../../img/img_flask/test-tubes3.png);
-        background-size: 80% 100%;
-        background-repeat: no-repeat;
-    }
-
-    .shadowFlask3 {
-        background: url(../../img/img_flask/test-tubes3_shadow.png);
-        background-size: 80% 100%;
-        background-repeat: no-repeat;
-        position: absolute;
-        width: 75px;
-        height: 145px;
-        top: -3px;
-        left: 271px;
-        opacity: 0.5;
+        top: -12.8vw;
+        left: 0.6vw;
+        z-index: 2;
+        overflow: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+        animation-name: shadow;
+        animation-iteration-count: 1;
+        animation-timing-function: cubic-bezier(0.2, 0.6, 0.8, 0.4);
+        animation-duration: 4s;
+        animation-fill-mode: forwards;
     }
 
     .bowl3 .inner3 {
-        width: 23px;
-        height: 110px;
-        top: -94px;
-        left: 16px;
+        width: 1.6vw;
+        height: 8.7vw;
+        position: relative;
+        top: -7vw;
+        left: 1.3vw;
+        z-index: 3;
+        border-bottom-left-radius: 58px;
+        border-bottom-right-radius: 58px;
+        overflow: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+        animation-name: shadow;
+        animation-iteration-count: 1;
+        animation-timing-function: cubic-bezier(0.2, 0.6, 0.8, 0.4);
+        animation-duration: 4s;
     }
 
     .bowl3 .inner32 {
-
-        width: 27px;
-        height: 107px;
-        top: 14px;
-        left: 16px;
-
+        width: 1.9vw;
+        height: 8vw;
+        position: relative;
+        top: 0.7vw;
+        left: 1.3vw;
+        z-index: 2;
+        border-bottom-left-radius: 58px;
+        border-bottom-right-radius: 58px;
+        overflow: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+        animation-name: shadow;
+        animation-iteration-count: 1;
+        animation-timing-function: cubic-bezier(0.2, 0.6, 0.8, 0.4);
+        animation-duration: 4s;
+        animation-fill-mode: forwards;
     }
 
     .bowl3 .inner3Right {
-
-        width: 27px;
-        height: 110px;
-        top: -204px;
-        left: 16px;
-
+        width: 1.9vw;
+        height: 8.7vw;
+        position: relative;
+        top: -15.7vw;
+        left: 1.3vw;
+        z-index: 1;
+        border-bottom-left-radius: 58px;
+        border-bottom-right-radius: 58px;
+        overflow: hidden;
+        backface-visibility: hidden;
+        transform: translate3d(0, 0, 0);
+        animation-name: shadow;
+        animation-iteration-count: 1;
+        animation-timing-function: cubic-bezier(0.2, 0.6, 0.8, 0.4);
+        animation-duration: 4s;
     }
-}
+
+} 

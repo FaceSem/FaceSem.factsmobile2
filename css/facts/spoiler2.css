@@ -1100,10 +1100,14 @@
         width: 15vw;
         font-weight: bold!important;
         font-size: 4.5vw;
-        padding: 2vw 8vw 2vw 6vw;
+        padding: 2vw 10vw 2vw 6vw;
         margin-left: 7vw;
         margin-top: 1vw;
         margin-bottom: -5vw;
+    }
+
+    .pdng-tab-section {
+        padding-right: 6vw!important;
     }
 
     .tabcontent-section-72 .under-text {
@@ -1123,6 +1127,7 @@
     .tabcontent-section-72 .col1 {
         padding: 5vw;
         width: 72vw;
+        margin-bottom: 8vw;
     }
 
     .tabcontent-section-72 .blue-color {
