@@ -651,6 +651,7 @@ body {
     .bag-icon {
         background-position-x: center;
         background-image: url("../img/bag.png");
+        background-size: 56%;
     }
 
     .number-of-items-in-bag {
